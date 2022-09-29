@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss With Vite</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+</head>
+<body class="bg-[#F5F5F5] h-full font-inter">
+<!--  navbar-->
+<div class="w-full h-[72px] lg:h-[68px] bg-white px-[16px] lg:px-[100px] flex justify-between items-center">
+    <a href="/index.html">  <img src="./dist/assets/images/logo/Logo.svg" class="w-[50px] lg:w-[79px]"  alt=""></a>
+    <div class="bg-[#F7F7F7] flex gap-x-[10px] items-center px-[16px] py-2 rounded-full">
+        <img src="./dist/assets/images/svg/phone.svg" class="w-[12px] lg:w-[15px]" alt="">
+        <p class="leading-[20px] lg:leading-[24px] text-[14px] lg:text-[16px] font-[500]">09642080808</p>
+    </div>
+</div>
+
+<div class="mt-4 lg:mt-[30px] px-[16px] lg:px-[100px]">
+    <div class="bg-white w-full h-50 p-[16px] lg:p-[40px] rounded-[10px]">
+        <div class="flex justify-between">
+            <p class="leading-[28px] lg:leading-[44px] text-[20px] lg:text-[36px] font-[500] text-black">Find dhaka city bus <br> stopages easily</p>
+            <img src="./dist/assets/images/svg/station.svg" class="w-[91px] lg:w-[167px]" alt="">
+        </div>
+
+
+        <p class="leading-[20px] lg:leading-[24px] text-[14px] lg:text-[16px] font-[500] text-black">Please select a bus company to see stoppage</p>
+        <select name="" id="" class="w-full md:w-1/4 mt-[10px] border border-[#DBDBDB] rounded-[4px] py-3 px-4 focus:outline-none">
+            <option  value=" Trans Silva Limited">
+                Trans Silva Limited
+            </option>
+        </select>
+
+    </div>
+
+</div>
+
+<!--        desktop  footer-->
+<div class="mt-[80px] bg-[#f04935] px-[100px] py-[60px] hidden lg:block">
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-y-[20px] lg:gap-y-[24px]">
+            <img src="./dist/assets/images/logo/white_logo.svg" class="w-[89px]" alt="">
+            <div class="flex gap-x-[14px]">
+                <img src="./dist/assets/images/svg/googleplay.svg" class="102px" alt="">
+                <img src="./dist/assets/images/svg/jatri.svg" class="102px" alt="">
+            </div>
+            <div class="flex gap-x-[49px]">
+                <img src="./dist/assets/images/svg/facebook.svg" class="30px" alt="">
+                <img src="./dist/assets/images/svg/youtube.svg" class="30px" alt="">
+                <img src="./dist/assets/images/svg/linkedin.svg" class="30px" alt="">
+            </div>
+        </div>
+        <div class="flex flex-col gap-y-[22px]">
+            <div class="flex gap-x-[10px] items-center">
+                <img src="./dist/assets/images/svg/support.svg" class="w-[30px]" alt="">
+                <p class="leading-[28px] text-[20px] font-[500] text-white">support@jatri.co</p>
+            </div>
+            <div class="flex gap-x-[10px] items-center">
+                <img src="./dist/assets/images/svg/location.svg" class="w-[30px]" alt="">
+                <p class="leading-[28px] text-[20px] font-[500] text-white">Banani, Road-2, Block- l. House-23 <br> Dhaka 1213</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  mobile footer-->
+<div class="mt-[60px] bg-[#f04935] px-[16px] py-[30px] block lg:hidden">
+    <img src="./dist/assets/images/logo/white_logo.svg" class="w-[89px]" alt="">
+
+    <div class="mt-[20px] flex gap-x-[14px]">
+        <img src="./dist/assets/images/svg/googleplay.svg" class="102px" alt="">
+        <img src="./dist/assets/images/svg/jatri.svg" class="102px" alt="">
+    </div>
+
+    <hr class="border-t border-white w-full mt-6">
+
+    <div class="flex gap-x-[10px] items-center mt-6">
+        <img src="./dist/assets/images/svg/support.svg" class="w-[30px]" alt="">
+        <p class="leading-[24px] text-[16px] font-[500] text-white">support@jatri.co</p>
+    </div>
+
+    <div class="flex gap-x-[10px] items-center mt-6">
+        <img src="./dist/assets/images/svg/location.svg" class="w-[30px]" alt="">
+        <p class="leading-[24px] text-[16px] font-[500] text-white">Banani, Road-2, Block- l. House-23 Dhaka <br> 1213</p>
+    </div>
+    <hr class="border-t border-white w-full mt-6">
+    <div class="flex gap-x-[84px] mt-6 justify-center items-center">
+        <img src="./dist/assets/images/svg/facebook.svg" class="30px" alt="">
+        <img src="./dist/assets/images/svg/youtube.svg" class="30px" alt="">
+        <img src="./dist/assets/images/svg/linkedin.svg" class="30px" alt="">
+    </div>
+</div>
+</body>
+</html>
